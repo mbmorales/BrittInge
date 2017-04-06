@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Raleway', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+body {
+    padding-top: 95vh;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 80px 0;
+    position: relative;
+    background-color: #fff;
+}
+
+
+/*---------headings---------------*/
+
+h1 {
+   margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 300%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #55fd37;
+}
+
+ul { 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/*-----------------------------*/
+/*--------Header---------------*/
+/*-----------------------------*/
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url(img/mainbg.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.name-box {
+    position: absolute;
+    width: 1140px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*---------Navigation----------*/
+
+.main-nav {
+    float: none;
+    margin-bottom: -30px;
+    position: relative;
+    bottom: 0px;
+    list-style: none;
+    height: 40px;
+    background-color: #eee;
+    z-index: 150;
+    box-shadow: 0 2px 3px rgba(0,0,0,.4)
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 5px;
+}
+
+/*-----------------------------*/
+/*---------about---------------*/
+/*-----------------------------*/
+
+.about { 
+    padding-top: 80px;
+    }
+
+.headshot {
+    height: 150px;
+    width: auto;
+    border-radius: 50%;
+}
+
+
+
+/*-----------------------------*/
+/*------Skills---------*/
+/*----------------------------*/
